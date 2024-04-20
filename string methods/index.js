@@ -1,0 +1,37 @@
+let text = "ABCDEF,GHIJ,KLMN,OPQR,STUVWXYZ";
+let str = "Apple, Banana, Kiwi";
+let content = "            hello";
+let number = "5";
+
+let length = text.length;
+let char = text.charAt(2);
+let charcode = text.charCodeAt(2);
+let letter = text[2];
+let part = text.slice(5, 10);
+let part2 = text.slice(-20, -6);
+let part3 = text.substring(10, 15);
+let lower = text.toLowerCase();
+let concat = text.concat(" ", str);
+let trim = content.trim();
+let pad = number.padStart(5, "a");
+let pad2 = number.padEnd(5, "a");
+let result = text.repeat(2);
+let replace = text.replace("ABCD", "abcd");
+let split = text.split(",");
+
+console.log(length);
+console.log(char);
+console.log(charcode);
+console.log(letter);
+console.log(part);
+console.log(part2);
+console.log(part3);
+console.log(lower);
+console.log(concat);
+console.log(content);
+console.log(trim);
+console.log(pad);
+console.log(pad2);
+console.log(result);
+console.log(replace);
+console.log(split);
